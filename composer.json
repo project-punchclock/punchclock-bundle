@@ -1,0 +1,32 @@
+{
+    "name": "project-punchclock/punchclock-bundle",
+    "type": "library",
+    "description": "punchclock bundle for the project punchclock system.",
+    "keywords": [
+        "punchclock",
+        "punch"
+    ],
+    "homepage": "http://punchclock.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ProjectPunchclock\\Bundle\\PunchclockBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
